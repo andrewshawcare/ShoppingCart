@@ -1,0 +1,3 @@
+graphiteReporter:
+  hostname: ${GRAPHITE_REPORTER__HOSTNAME:-localhost}
+  port: ${GRAPHITE_REPORTER__PORT:-2003}
